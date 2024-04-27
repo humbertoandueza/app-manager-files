@@ -1,0 +1,30 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+#root
+{
+ margin: 0 auto;
+ text-align: center;
+ overflow-x: hidden;
+}
+
+.max-w {
+    width: 100%;
+    max-width: 1250px;
+    background-color: rgb(27, 21, 139);
+}
+
+.read-the-docs {
+ color: #888;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
